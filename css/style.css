@@ -1,0 +1,100 @@
+body {
+	position: relative;
+	font-family: 'Didot', serif;
+	font-size: 20px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1)
+}
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    margin-right: 25px;
+}
+.nav-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.nav-menu li{
+    display: inline-block;
+}
+
+.nav-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    padding: 8px;
+}
+
+.nav-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.nav-forms {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 45px;
+    margin-top: 0px;
+    text-decoration: none;
+
+}
+.nav-forms li{
+    display: inline-block;
+}
+.nav-forms li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #e67e22;
+    padding: 8px;
+}
+.nav-logo {
+    list-style-type: none;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+
+}
+
+.nav-menu li a:hover{
+    opacity: 1;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.btn-main{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #e67e22;
+    border: none;
+    border-radius: 5px;
+}

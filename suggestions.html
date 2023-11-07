@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Предложения по работе библиотеки</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">Онлайн-библиотека</a>
+
+                <div class="nav-wrap">
+                    <ul class="nav-menu">
+                        <li><a href="index.html"> О библиотеке</a></li>
+                        <li><a href="book_top.html">Топ книг</a></li>
+                        <li><a href="rules.html" target="_blank">Правила пользования онлайн библиотекой</a></li>
+                        <li><a href="genre.html" target="_blank">Жанры</a></li>
+                    </ul>
+
+                    <ul class="nav-forms">
+                        <li><a href="registration.html">Регистрация</a></li>
+                        <li><a href="suggestions.html"><b>Отзывы</b></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+<body>
+        <form action="suggestions.html?" method="get" name="user">
+        <p><input type="text" required placeholder="Логин" name="login">
+        <p><input type="text" required placeholder="Пароль" name="password">
+          <p><input type="range" id="mark" name="mark" min="0" max="10" />
+          <label for="mark"><small>Качество работы сервиса</small></label>
+        <p><small>Ваши пожелания по работе сервиса</small>
+        <br><textarea cols="50" rows="3" name="suggestion"></textarea>
+                <input type="hidden" name="function"  value="page">
+
+        <p><small>Дата подачи заявки</small>   <input type="date" name="date">
+        </p>
+            <div class="beautiful_btn">
+            <button type="submit" class="btn-main">Отправить</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">Онлайн-библиотека</a>
+
+                <div class="nav-wrap">
+                    <ul class="nav-menu">
+                        <li><a href="index.html"> О библиотеке</a></li>
+                        <li><a href="book_top.html">Топ книг</a></li>
+                        <li><a href="rules.html">Правила пользования онлайн библиотекой</a></li>
+                        <li><a href="genre.html">Жанры</a></li>
+                    </ul>
+
+                    <ul class="nav-forms">
+                        <li><a href="registration.html" target="_blank"><b>Регистрация</b></a></li>
+                        <li><a href="suggestions.html" target="_blank">Отзывы</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+<body>
+    <form action="registration.html?" method="get" name="user">
+        <p><input type="text" required placeholder="Имя" name="name">
+        <p><input type="text" required placeholder="Фамилия" name="surname">
+        <p><input type="text" placeholder="Номер телефона" name="phone">
+        <p><input type="email" placeholder="Электронная почта" name="email">
+        <p> <small>Способ оплаты </small>
+            <select name="select">
+                <option selected value="s1">Банковская карта</option>
+                <option value="s2">Интернет-банкинг</option>
+                <option value="s3">Баланс телефона</option>
+            </select>
+        </p>
+
+        <div class="beautiful_btn">
+            <button type="submit" class="btn-main">Отправить</button>
+        </div>
+    </form>
+
+
+
+</body>
+</html>
